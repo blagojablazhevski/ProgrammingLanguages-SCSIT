@@ -8,6 +8,10 @@ public class Exercise02 {
 			this.category = category;
 		}
 		
+		public int getCategory() {
+			return category;
+		}
+		
 		public void EGG() {
 			System.out.println("Each egg has an albumen and a yolk");
 		}
@@ -27,10 +31,18 @@ public class Exercise02 {
 	}
 
 	public static void main(String[] args) {
-		egg henneg = new egg(2);
-		ostrich_egg ostrichegg = new ostrich_egg(4);
+		egg henegg = new egg(1);
+		ostrich_egg ostrichegg = new ostrich_egg(2);
 		
-		henneg.EGG();
+		System.out.println("For the hen's egg: ");
+		henegg.print();
+		henegg.EGG();
+		System.out.println(henegg.getCategory());
+		
+		System.out.println("\nFor the ostrich's egg: ");
+		ostrichegg.print();
 		ostrichegg.EGG();
+		System.out.println(ostrichegg.getCategory());
+	
 	}
 }
