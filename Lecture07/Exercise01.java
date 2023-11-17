@@ -1,3 +1,4 @@
+
 public class Exercise01 {
 	
 	interface Two_D_Shape{
@@ -106,7 +107,7 @@ public class Exercise01 {
 			count++;
 		}
 		
-		System.out.println("There are " + count + " Two_D_Shape instances");
+		System.out.println("\nThere are " + count + " Two_D_Shape instances\n");
 		
 		System.out.println("Triangle 1:\n");
 		T1.parameters();
@@ -128,7 +129,7 @@ public class Exercise01 {
 		System.out.println("Perimeter:\t" + B2.perimeter());
 		System.out.println("Area:\t" + B2.area());
 		
-		System.out.println("\nSphere 3:\n");
+		System.out.println("\nSphere 3:\n");	
 		((Two_D_Shape) B3).parameters();
 		System.out.println("Perimeter:\t" + ((Two_D_Shape) B3).perimeter());
 		System.out.println("Area:\t" + ((Two_D_Shape) B3).area());
