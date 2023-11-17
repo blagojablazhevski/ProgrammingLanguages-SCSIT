@@ -100,10 +100,10 @@ public class Exercise01 {
 		if(B1 instanceof Two_D_Shape) {
 			count++;
 		}
-		if(B3 instanceof Two_D_Shape) {
+		if(B2 instanceof Two_D_Shape) {
 			count++;
 		}
-		if(T1 instanceof Two_D_Shape) {
+		if(B3 instanceof Two_D_Shape) {
 			count++;
 		}
 		
