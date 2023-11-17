@@ -1,4 +1,4 @@
-public class Ass01 {
+public class Exercise01 {
 	
 	interface Two_D_Shape{
 		static float PI = 3.14f;
