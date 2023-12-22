@@ -18,12 +18,11 @@ public class ATM {
 
 		while (myAccount.getAmount() > 0) {
 			System.out.println("\nChoose from the menu:\n");
-			System.out.println("1. Bank");
-			System.out.println("2. State");
-			System.out.println("3. Add");
-			System.out.println("4. Withdraw");
-			System.out.println("5. Clear Account");
-			System.out.println("6. Exit\n");
+			System.out.println("1. Bank overview");
+			System.out.println("2. Account overview");
+			System.out.println("3. Cash addition");
+			System.out.println("4. Cash withdrawal");
+			System.out.println("5. Account clearing");
 
 			int choice = input.nextInt();
 
@@ -47,9 +46,6 @@ public class ATM {
 			case 5:
 				myAccount.clearAccount();
 				break;
-			case 6:
-				System.out.println("Exiting the ATM. Thank you!");
-				return;
 			default:
 				System.out.println("Invalid choice! Please enter a valid option.");
 			}
