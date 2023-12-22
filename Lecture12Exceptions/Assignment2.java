@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Assignment2 {
 
 	public static void main(String[] args) {
-		    Scanner input = new Scanner(System.in);
+	// TODO Auto-generated method stub
+	Scanner input = new Scanner(System.in);
 
         System.out.print("Number of rows: ");
         int rows = input.nextInt();
