@@ -10,7 +10,7 @@ public class Assignment3 {
 
         String text;
         do {
-            System.out.print("Enter text (or 'END' to quit): ");
+            System.out.print("Input the text. To finish inputting, input END: ");
             text = input.nextLine();
 
             if (!text.equalsIgnoreCase("END")) {
@@ -20,8 +20,7 @@ public class Assignment3 {
                     weight += character - 'A' + 1;
                 }
 
-                System.out.println("Length: " + length);
-                System.out.println("Weight: " + weight);
+                System.out.println(text + " has " + length + " characters, and its weight is " + weight);
             }
         } while (!text.equals("END"));
 	}
