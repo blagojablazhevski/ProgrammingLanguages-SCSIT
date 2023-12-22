@@ -6,19 +6,16 @@ public class ATM {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
 		Scanner input = new Scanner(System.in);
 
-		// Taking initial values for bank and amount input from the keyboard
 		System.out.print("Input a bank: ");
 		String bankName = input.nextLine();
 		System.out.print("Input the initial amount: ");
 		int initialAmount = input.nextInt();
 
-		// Creating an object myAccount with initial values
 		Account myAccount = new Account(bankName, initialAmount);
 
-		// Interactive menu operations while the amount > 0
 		while (myAccount.getAmount() > 0) {
 			System.out.println("\nChoose from the menu:\n");
 			System.out.println("1. Bank");
